@@ -1,0 +1,29 @@
+###
+GET http://localhost:4000/api/vehiculos
+
+###
+POST http://localhost:4000/api/vehiculos
+Content-type: application/json
+
+{
+    "marca": "twizi",
+    "referencia": "sail",
+    "color": "blanco",
+    "precio": "312568963"
+   
+    
+}
+
+###
+GET http://localhost:4000/api/vehiculos/6243de6ab6a226a91c2d8f96
+
+###
+DELETE http://localhost:4000/api/vehiculos/6246501b8ef6ccf9f8a34829
+
+###
+PUT http://localhost:4000/api/vehiculos/6243de6ab6a226a91c2d8f96
+content-type: application/json
+
+{
+    "color": "negro"
+}
